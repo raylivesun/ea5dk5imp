@@ -1,0 +1,41 @@
+;; the documentation guides newlisp to ra9mc type modules library
+;; name project:. ra9mc
+;; type project:. layout amouther common new lisp
+;; code project:. common new lisp
+;; pops project:. portability
+;; kits project:. ra9mc
+
+(defun check-newlisp-layout (&port num &rest ip)
+   "The documentation of ip to local of layout and numeric value of port."
+   (declare (&port num &rest ip)
+        (if num (ip)
+        (t (function num))
+        (t (function ip))
+        (let ((num))
+             (lambda (ip)
+             "The value of lambda and ip local address."
+             (cond (num ip)
+                   (progn (num ip)
+                   (setq num 10)
+                   (setq ip 4)))
+             (eq num ip))
+             (eql num ip)))))
+             
+
+(defun check-newlisp-document (&doc num &rest pp)
+"The document newlisp licit in gnu arachitecture to command the connection 
+ matrix to make document to search system newlisp to make agreement with 
+ document guides."
+(declare (&doc num &rest pp)
+         (setq num 30)
+         (setq pp 31)
+         (if num (pp)
+             (t (function num))
+             (t (function pp))
+             (* (+ num pp) (+ num pp) pp))
+             (let ((num))
+                  (lambda (num)
+                  "The document licit to pp command connection matrix."
+                  (eq num pp)))))
+          
+                     
